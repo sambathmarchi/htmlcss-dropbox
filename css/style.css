@@ -1,0 +1,356 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	z-index: 1000;
+	box-shadow: 0 1px 2px grey;
+	height: 100px;
+}
+
+header > nav{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
+}
+
+header > nav ul{
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+
+header > nav a{
+	color: black;
+	padding: 0 1em;
+	
+}
+
+.button1{
+	color: white;
+	background-color: deepskyblue;
+	display: inline-block;
+	padding: 0.5em 1em;
+}
+
+.left{
+	display: flex;
+	justify-content: start;
+	margin: 0 0;
+}
+
+.right{
+	display: flex;
+	justify-content: end;
+	margin: 0 0;
+}
+
+main{
+	padding-top: 70px;
+}
+
+h1{
+	font-size: 70px;
+	font-weight: 800px;
+}
+
+section#jumbotron{
+	margin-bottom: 60px;
+	background-color: cornflowerblue;
+}
+
+#jumbotron .container{
+	position: relative;
+	padding-top: 64px;
+}
+
+#jumbotron img{
+	width: 100%;
+	margin-bottom: -75px;
+}
+
+.conatiner{
+	max-width: 2400px;
+	margin: 0 auto;
+}
+
+.firsttitle{
+	max-width: 1000px;
+	margin-left: 250px;
+	
+}
+
+.container2{
+	display: flex;
+	max-width: 80%;
+}
+
+.container3{
+	width: 30%
+
+}
+
+p{
+	font-size: 20px;
+	font-weight: 10px;
+}
+
+.firsttitle{
+	margin-bottom: 35px;
+}
+
+#arrow{
+	margin-top: 30px;
+	position: absolute;
+	bottom: 20px;
+}
+
+.container4{
+	width: 70%;
+}
+
+.button2{
+	background-color: dodgerblue;
+	color:white;
+	display: inline-block;
+	padding: 0.5em 1em;
+}
+
+.content{
+	padding-top: 30px;
+
+}
+
+main > ul {
+	
+}
+
+.content{
+	min-height: 40vh;
+	max-width: 1300px;
+}
+
+.bigtitle{
+	margin-bottom: 20px;
+}
+
+.columncontainer{
+	max-width: 1400px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+
+}
+
+.radios{
+	padding-bottom: 40px;
+}
+
+.column{
+	width: 30%;
+	display: inline-block;
+	border-style: solid;
+	margin-bottom: 40px;
+	margin: 40px 0;
+	
+	
+	
+}
+
+.columnheader{
+	padding: 18px;
+}
+
+.type{
+	margin: 16px 0;
+}
+
+.columncontent{
+	padding: 16px;
+}
+
+.price{
+	margin-bottom: 16px;
+
+}
+
+.time{
+	margin-bottom: 32px;
+}
+
+.squares{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1300px;
+}
+
+.columnheader{
+	display: flex;
+	justify-content: center;
+}
+
+.rowcontent{
+	width: 100%;
+	border-style: solid;
+}
+
+.partnersect{
+	min-height: 40vh;
+	max-width: 1300px;
+	padding-top: 200px;
+}
+
+.partcontainer{
+	display: flex;
+}
+
+.partimage{
+	
+	width: 80%;
+}
+
+.firstpartn{
+	width: 55%;
+}
+
+.parttext{
+	width: 45%;
+	margin-top: 90px;
+}
+
+.button3{
+	
+}
+
+.btn{
+	color: black;
+	
+	
+}
+
+.btcont{
+	height: 40px;
+	width: 140px;
+	margin: 20px 0;
+	border-style: solid;
+	color: black;
+	border-color: black;
+	display: flex;
+	align-items: center;
+	
+}
+
+.opsection{
+	min-height: 40vh;
+	max-width: 1300px;
+	margin-bottom: 80px;
+}
+
+.opcontainer{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.opimage{
+	width: 100%;
+}
+
+
+.operation{
+   width: 30%;
+   margin-bottom: 80px;
+}
+
+.secondtitle{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.st{
+	font-size: larger;
+	font-size: 50px;
+}
+
+.blocktitle{
+	max-width: 1300px;
+	margin-bottom: 30px;
+}
+
+.blt{
+	width: 80%;
+	margin: auto 0;
+}
+
+.bllink{
+	max-width: 1300px;
+	
+}
+
+.blsection{
+	width: 100%;
+}
+
+.blcontainer{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	margin-top: 150px;
+}
+
+.bb1{
+	width: calc(100%/3);
+	background-color: red;
+	height: 100%;
+}
+
+.bb2{
+	width: calc(100%/3);
+	background-color: blue;
+	height: 100%;
+}
+
+.freesection{
+	width: 100%;
+
+}
+
+.freecontainer{
+	width: 100%;
+	background-color: lightblue;
+	height: 450px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+
+.freetitle{
+	color: darkred;
+}
+
+.freebtn{
+	height: 50px;
+	width: 250px;
+	background-color: white;
+	text-align: center;
+    display: flex;
+	justify-content: center;
+	align-items: center;color: black;
+}
+
+.frb{
+	color: black;
+}
